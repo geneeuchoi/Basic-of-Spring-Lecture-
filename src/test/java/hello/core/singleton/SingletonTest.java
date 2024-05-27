@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class singletonTest {
+public class SingletonTest {
     @Test
     @DisplayName("스프링 없는 순수한 DI 컨테이너")
     void pureContainer() {
